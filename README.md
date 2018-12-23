@@ -1,8 +1,8 @@
 <div id="login">
   <form method="post" action="https://example.com/hoge/">
     <dl>
-      <div><input type="text" name="id" value="" placeholder="Eメールアドレス" /></div>
-      <div><input type="password" name="password" value="" placeholder="パスワード" /></div>
+      <input id="user-text-field" type="email" autocomplete="username"/>
+      <input id="password-text-field" type="password" autocomplete="current-password"/>
     </dl>
     <p><input name="submit" value="SignUp" type="submit"></p>
   </form>
