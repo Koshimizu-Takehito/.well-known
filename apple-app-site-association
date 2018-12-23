@@ -9,5 +9,8 @@
                 ]
             }
         ]
+    },
+    "webcredentials": {
+        "apps": ["L2S68XMK99.com.takehito.koshimizu.TextField"]
     }
 }
