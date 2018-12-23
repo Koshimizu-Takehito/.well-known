@@ -1,0 +1,13 @@
+{
+    "applinks": {
+        "App": [], 
+        "details": [
+            {
+                "appID": "L2S68XMK99.com.takehito.koshimizu.TextField",
+                "paths": [
+                    "/*"
+                ]
+            }
+        ]
+    }
+}
