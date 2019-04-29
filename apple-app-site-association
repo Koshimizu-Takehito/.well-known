@@ -7,6 +7,12 @@
                 "paths": [
                     "/*"
                 ]
+            },
+            {
+                "appID": "L2S68XMK99.com.example.takehito.koshimizu.MVVM-RxSwift",
+                "paths": [
+                    "/*"
+                ]
             }
         ]
     },
