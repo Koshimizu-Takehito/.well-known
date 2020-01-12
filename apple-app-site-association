@@ -19,6 +19,12 @@
                 "paths": [
                     "/*"
                 ]
+            },
+            {
+                "appID": "L2S68XMK99.maccatalyst.com.takehito.koshimizu.SwiftUIMasterDetailCoreData",
+                "paths": [
+                    "/*"
+                ]
             }
         ]
     },
