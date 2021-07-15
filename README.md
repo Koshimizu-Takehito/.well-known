@@ -1,9 +1,16 @@
-<div id="login">
-  <form method="post" action="https://example.com/hoge/">
-    <dl>
-      <div><input id="user-text-field" type="email" autocomplete="username" placeholder="Eメールアドレス"/></div>
-      <div><input id="password-text-field" type="password" autocomplete="current-password" placeholder="パスワード"/></div>
-    </dl>
-    <p><input name="submit" value="SignUp" type="submit"></p>
-  </form>
-</div>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://materials.8card.net/product/onair/campaign/july2021/"/>
+<noscript>
+  <meta http-equiv="refresh" content="0;URL=https://materials.8card.net/product/onair/campaign/july2021/">
+</noscript>
+<script type="text/javascript">
+  var url = "https://materials.8card.net/product/onair/campaign/july2021/";
+  window.location.replace(url);
+</script>
+</head>
+<body>
+</body>
+</html>
