@@ -7,7 +7,7 @@
   <meta http-equiv="refresh" content="0;URL=https://materials.8card.net/product/onair/campaign/july2021/">
 </noscript>
 <script type="text/javascript">
-  var url = "https://swift-tweets.connpass.com/event/211603/";
+  var url = "https://twitter.com/home?lang=ja";
   window.location.replace(url);
 </script>
 </head>
