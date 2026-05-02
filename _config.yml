@@ -5,4 +5,4 @@ baseurl: "/.well-known"
 # MyToybox ランディング・Smart App Banner用（App Store Connect の「Apple ID」（数値）を設定）
 mytoybox:
   app_name: "MyToybox"
-  app_store_id: ""
+  app_store_id: "6743644224"
