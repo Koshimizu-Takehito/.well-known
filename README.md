@@ -1,16 +1,13 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-<meta name="robots" content="noindex">
-<link rel="canonical" href="https://materials.8card.net/product/onair/campaign/july2021/"/>
-<noscript>
-  <meta http-equiv="refresh" content="0;URL=https://materials.8card.net/product/onair/campaign/july2021/">
-</noscript>
-<script type="text/javascript">
-  var url = "https://twitter.com/home?lang=ja";
-  window.location.replace(url);
-</script>
-</head>
-<body>
-</body>
-</html>
+# .well-known
+
+GitHub Pages（Jekyll）で [Well-Known URI](https://www.rfc-editor.org/rfc/rfc8615) リソースを公開するためのリポジトリです。
+
+## 含まれるファイル
+
+- **`apple-app-site-association`** — iOS の Associated Domains / Universal Links 用（JSON）
+
+ビルド設定は [`_config.yml`](_config.yml)（`jekyll-theme-midnight`）を参照してください。
+
+## ライセンス
+
+[MIT License](LICENSE)
