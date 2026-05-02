@@ -1,34 +1,29 @@
 {
     "applinks": {
-        "App": [], 
         "details": [
             {
-                "appID": "L2S68XMK99.com.takehito.koshimizu.TextField",
+                "appID": "L2S68XMK99.com.takehito.koshimizu.MyToybox",
                 "paths": [
-                    "/*"
+                    "NOT /.well-known/apple-app-site-association",
+                    "/.well-known/clip/*",
+                    "/.well-known",
+                    "/.well-known/"
                 ]
             },
             {
-                "appID": "L2S68XMK99.com.example.takehito.koshimizu.MVVM-RxSwift",
+                "appID": "L2S68XMK99.com.takehito.koshimizu.MyToybox.MyToyboxClip",
                 "paths": [
-                    "/*"
-                ]
-            },
-            {
-                "appID": "L2S68XMK99.com.takehito.koshimizu.SwiftUIMasterDetailCoreData",
-                "paths": [
-                    "/*"
-                ]
-            },
-            {
-                "appID": "L2S68XMK99.maccatalyst.com.takehito.koshimizu.SwiftUIMasterDetailCoreData",
-                "paths": [
-                    "/*"
+                    "NOT /.well-known/apple-app-site-association",
+                    "/.well-known/clip/*",
+                    "/.well-known",
+                    "/.well-known/"
                 ]
             }
         ]
     },
-    "webcredentials": {
-        "apps": ["L2S68XMK99.com.takehito.koshimizu.TextField"]
+    "appclips": {
+        "apps": [
+            "L2S68XMK99.com.takehito.koshimizu.MyToybox.MyToyboxClip"
+        ]
     }
 }
