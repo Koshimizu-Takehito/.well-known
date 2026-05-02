@@ -1,46 +1,11 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="robots" content="noindex">
-  <title>.well-known（配信用）</title>
-</head>
-<body>
-  <style>
-    main { max-width: 40rem; margin: 2rem auto; padding: 0 1rem; line-height: 1.6; font-family: system-ui, sans-serif; }
-    h1 { font-size: 1.25rem; margin-bottom: 1rem; }
-    p { margin: 0 0 1rem; }
-    #clip-banner { display: none; margin-bottom: 2rem; padding: 1rem; background: #f4f4f5; border-radius: 8px; }
-    #clip-banner.is-visible { display: block; }
-    code { font-size: 0.9em; }
-  </style>
-  <main>
-    <div id="clip-banner">
-      <h1>MyToybox のデモリンク</h1>
-      <p id="clip-banner-text"></p>
-      <p><a href="https://github.com/Koshimizu-Takehito/my-toybox">my-toybox（GitHub）</a></p>
-    </div>
-    <h1>このサイトについて</h1>
-    <p>このドメインは、<abbr title="RFC 8615">Well-Known URI</abbr> として定められたリソース（例: iOS Universal Links / Associated Domains 用の <code>apple-app-site-association</code>）を GitHub Pages（Jekyll）で公開するためのものです。</p>
-    <p>クライアントが実際に取得するのはルートではなく、通常は <code>/.well-known/</code> 配下の URL です。</p>
-    <p><a href="https://github.com/Koshimizu-Takehito/.well-known">ソース（GitHub）</a></p>
-  </main>
-  <script>
-    (function () {
-      var known = { dotsSpinnerDemoScreen: true, ringSliderScreen: true, badgeDemoScreen: true };
-      var params = new URLSearchParams(window.location.search);
-      var screen = params.get('screen');
-      if (!screen) return;
-      var banner = document.getElementById('clip-banner');
-      var textEl = document.getElementById('clip-banner-text');
-      var isKnown = Object.prototype.hasOwnProperty.call(known, screen);
-      var msg = isKnown
-        ? 'クエリ <code>screen=' + screen + '</code> で App Clip / 本アプリを開くためのリンクです。iOS で開くと該当デモへ遷移します。アプリがない場合はここに留まります。'
-        : 'クエリ <code>screen=' + screen + '</code> が指定されています。対応するデモがアプリ内にない場合は一覧にフォールバックします。';
-      textEl.innerHTML = msg;
-      banner.classList.add('is-visible');
-    })();
-  </script>
-</body>
-</html>
+---
+layout: home
+title: ".well-known（配信用）"
+---
+
+<section class="clip-card">
+  <h1 class="clip-section-title">このサイトについて</h1>
+  <p>このドメインは、<abbr title="RFC 8615">Well-Known URI</abbr> として定められたリソース（例: iOS Universal Links / Associated Domains 用の <code>apple-app-site-association</code>）を GitHub Pages（Jekyll）で公開するためのものです。</p>
+  <p>クライアントが実際に取得するのはルートではなく、通常は <code>/.well-known/</code> 配下の URL です。</p>
+  <p><a class="clip-secondary-link" href="https://github.com/Koshimizu-Takehito/.well-known">ソース（GitHub）</a></p>
+</section>
