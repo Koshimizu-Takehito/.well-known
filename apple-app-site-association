@@ -5,18 +5,18 @@
                 "appID": "L2S68XMK99.com.takehito.koshimizu.MyToybox",
                 "paths": [
                     "NOT /.well-known/apple-app-site-association",
-                    "/.well-known/clip/*",
-                    "/.well-known",
-                    "/.well-known/"
+                    "/my-toybox-clip",
+                    "/my-toybox-clip/",
+                    "/my-toybox-clip/*"
                 ]
             },
             {
                 "appID": "L2S68XMK99.com.takehito.koshimizu.MyToybox.MyToyboxClip",
                 "paths": [
                     "NOT /.well-known/apple-app-site-association",
-                    "/.well-known/clip/*",
-                    "/.well-known",
-                    "/.well-known/"
+                    "/my-toybox-clip",
+                    "/my-toybox-clip/",
+                    "/my-toybox-clip/*"
                 ]
             }
         ]

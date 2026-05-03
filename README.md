@@ -4,18 +4,15 @@ GitHub Pages（Jekyll）で [Well-Known URI](https://www.rfc-editor.org/rfc/rfc8
 
 ## 含まれるファイル
 
-- **`apple-app-site-association`** — iOS の Associated Domains / Universal Links 用（JSON）
-- **`clip/<screen-id>/index.html`** — App Clip / Universal Link 用のフォールバック（Jekyll の `layout: clip_landing` と YAML の `clip_screen_id` で生成）
+- **`apple-app-site-association`** — iOS の Associated Domains / Universal Links 用（JSON）。App Clip 向けパスは **`/my-toybox-clip/*`**（[my-toybox-clip](https://github.com/Koshimizu-Takehito/my-toybox-clip) プロジェクトサイト）に一致。
 
-`clip/...` を増やすときは、[my-toybox の `ClipScreenCatalog.availableRoutes`](https://github.com/Koshimizu-Takehito/my-toybox/blob/main/Packages/Sources/MyToyboxScreens/ClipScreenCatalog.swift) に追加した `Screen.rawValue` と同じディレクトリ名で `index.html` を置き、既存ページと同様の Front Matter を付けること。
+App Clip / Universal Link 用の**ランディングページ**（`/<screen-id>/`、Smart App Banner 等）は **[my-toybox-clip](https://github.com/Koshimizu-Takehito/my-toybox-clip)** リポジトリで管理します。新規デモはそちらに `index.html` を追加し、[my-toybox の `ClipScreenCatalog`](https://github.com/Koshimizu-Takehito/my-toybox/blob/main/Packages/Sources/MyToyboxScreens/ClipScreenCatalog.swift) と `Screen.rawValue` を同期してください。
 
 ビルド設定は [`_config.yml`](_config.yml)（`jekyll-theme-midnight`）を参照してください。
 
-### App Store（ランディング・Smart App Banner）
+### App Store（このリポの `index` の Smart App Banner）
 
-サイト上の **「App Store で見る」** と Safari の **Smart App Banner** に使う数値 ID は、[App Store Connect](https://appstoreconnect.apple.com/) → 対象アプリ → **App 情報** に表示される **Apple ID**（10 桁前後の数字）です。取得後、`_config.yml` の `mytoybox.app_store_id` に文字列で設定してください（例: `"1234567890"`）。
-
-空のままでは、バナー・主ボタンは出ず、プレースホルダ文言のみ表示されます。
+ルート [`index.html`](index.html) のバナー用 **Apple ID** は `_config.yml` の `mytoybox.app_store_id` です（[App Store Connect](https://appstoreconnect.apple.com/) → アプリ → **App 情報**）。
 
 ## ライセンス
 
