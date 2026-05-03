@@ -6,7 +6,7 @@ GitHub Pages（Jekyll）で [Well-Known URI](https://www.rfc-editor.org/rfc/rfc8
 
 - **`apple-app-site-association`** — iOS の Associated Domains / Universal Links 用（JSON）。App Clip 向けパスは **`/my-toybox-clip/*`**（[my-toybox-clip](https://github.com/Koshimizu-Takehito/my-toybox-clip) プロジェクトサイト）に一致。
 
-App Clip / Universal Link 用の**ランディングページ**（`/<screen-id>/`、Smart App Banner 等）は **[my-toybox-clip](https://github.com/Koshimizu-Takehito/my-toybox-clip)** リポジトリで管理します。新規デモはそちらに `index.html` を追加し、[my-toybox の `ClipScreenCatalog`](https://github.com/Koshimizu-Takehito/my-toybox/blob/main/Packages/Sources/MyToyboxScreens/ClipScreenCatalog.swift) と `Screen.rawValue` を同期してください。
+App Clip / Universal Link 用の**ランディングページ**（`/<screen-id>/`、Smart App Banner 等）は **[my-toybox-clip](https://github.com/Koshimizu-Takehito/my-toybox-clip)** リポジトリで管理します。新規デモはそちらに `index.html` を追加し、[my-toybox の `RouteCatalog`](https://github.com/Koshimizu-Takehito/my-toybox/blob/main/Packages/Sources/MyToyboxScreens/RouteCatalog.swift) の `availableRoutes`（`Screen.rawValue`）と同期してください。
 
 ビルド設定は [`_config.yml`](_config.yml)（`jekyll-theme-midnight`）を参照してください。
 
